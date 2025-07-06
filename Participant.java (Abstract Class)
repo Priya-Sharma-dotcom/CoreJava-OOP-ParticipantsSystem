@@ -1,0 +1,15 @@
+package coreJavaProject;
+
+public abstract class Participant {
+    protected String name;
+    protected String email;
+    protected String level;
+
+    public Participant(String name, String email, String level) {
+        this.name = name;
+        this.email = email;
+        this.level = level;
+    }
+
+    public abstract void displayDetails();
+}
